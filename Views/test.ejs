@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+</head>
+<body>
+    <h1>test</h1>
+    <% if(user) { %>
+        <h3><%= user.email%></h3>
+    <% } %>
+
+    <button><a href="/logout">Log Out</a></button>
+    <button><a href="/test">test</a></button>
+</body>
+</html>

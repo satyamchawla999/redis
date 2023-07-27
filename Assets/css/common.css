@@ -1,0 +1,69 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(#4CB7A2,#91D5AA) ;
+    width: 100%;
+    height: 100vh;
+
+    font-family: "futura","sans-serif";
+}
+
+.credentialForm {
+    height: 500px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 0px 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.credentialForm p a {
+    text-decoration: none;
+    color: #4CB7A2;
+    cursor: pointer;
+}
+
+.formSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+}
+
+.formSection input {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.formSection button {
+    height: 50px;
+    width: 100%;
+    background-color: #4CB7A2;
+    border: none;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formSection button:hover {
+    background-image:linear-gradient(#4CB7A2,#91D5AA) ;
+}
+
+.signupForm input {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title%></title>
+    <link rel="stylesheet" href="/css/common.css">
+</head>
+
+<body>
+
+    <div class="credentialForm">
+        <h1>Sign in</h1>
+        <form action="/users/signin" method="POST" class="formSection">
+            <input name="email" type="text" placeholder="Enter Email">
+            <input name="password" type="password" placeholder="Enter Password">
+            <button>Sign in</button>
+        </form>
+
+        <p>New user? <a href="/signup">Sign up</a></p>
+    </div>
+    
+</body>
+
+</html>
